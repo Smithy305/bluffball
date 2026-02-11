@@ -41,7 +41,7 @@ This tool started as a simple terminal script before evolving into a web applica
 ## 🛠 How to Run Locally
 1.  Clone the repo:
     ```bash
-    git clone [https://github.com/your-username/bluffball.git](https://github.com/your-username/bluffball.git)
+    git clone [https://github.com/your-username/bluffball.git](https://github.com/Smithy305/bluffball.git)
     cd bluffball
     ```
 2.  Install dependencies:
