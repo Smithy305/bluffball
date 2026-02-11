@@ -15,6 +15,19 @@ This project is a real-world implementation of the "Bluffball" website from *The
 * **AI Engine:** Google Gemini 2.5 Flash (Primary) + Gemini Flash Latest (Backup)
 * **Data Sources:** NewsAPI (Live Context) + Static Squad Lists (Structured Data)
 
+## 🔑 Setup & Configuration
+To run this project, you will need two free API keys:
+
+### 1. Google Gemini API (The Brain)
+* Go to [Google AI Studio](https://aistudio.google.com/).
+* Click **"Get API Key"** in the top left corner.
+* Create a new key (it's free).
+
+### 2. NewsAPI (The Eyes)
+* Go to [NewsAPI.org](https://newsapi.org/).
+* Click **"Get API Key"**.
+* You will get a key instantly (free for developer use).
+
 ## 📜 Project Evolution
 This tool started as a simple terminal script before evolving into a web application:
 1.  **Phase 1: The CLI Prototype (`bluffball.py`)** - I initially built a Python script to test the RAG logic in the terminal. You can still run this file locally to see the raw "backend" logic without the UI.
@@ -26,6 +39,16 @@ This tool started as a simple terminal script before evolving into a web applica
 * **Hallucination Guardrails:** System prompts are engineered to prioritize "News Context" over internal training data to prevent the bot from referencing outdated players.
 
 ## 🛠 How to Run Locally
-1.  Clone the repo
-2.  Install dependencies: `pip install -r requirements.txt`
-3.  Run the app: `streamlit run app.py`
+1.  Clone the repo:
+    ```bash
+    git clone [https://github.com/your-username/bluffball.git](https://github.com/your-username/bluffball.git)
+    cd bluffball
+    ```
+2.  Install dependencies:
+    ```bash
+    pip install -r requirements.txt
+    ```
+3.  Run the app:
+    ```bash
+    streamlit run app.py
+    ```
